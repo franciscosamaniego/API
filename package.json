@@ -1,0 +1,22 @@
+{
+  "name": "api-notas",
+  "version": "1.0.0",
+  "description": "Una API para una app de notas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "notas"
+  ],
+  "author": "Francisco Samaniego",
+  "license": "No License",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
